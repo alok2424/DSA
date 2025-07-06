@@ -6,7 +6,6 @@ class TreeNode{
         this.data = val;
     }
 }
-
 class Pair{
     TreeNode node;
     int hd;
