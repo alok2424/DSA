@@ -6,6 +6,7 @@ class TreeNode{
         this.data= val;
     }
 }
+
 class Pair{
     TreeNode node;
     int hd;
@@ -14,6 +15,7 @@ class Pair{
         this.hd = _hd;
     }
 }
+
 class Solution{
     public ArrayList<Integer> botttomView(TreeNode root){
      ArrayList<Integer> ans = new ArrayList<>();
