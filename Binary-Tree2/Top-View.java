@@ -15,7 +15,6 @@ class Pair{
         this.hd = _hd;
     }
 }
-
 class Solution{
     public static ArrayList<Integer> topView(TreeNode root){
         ArrayList<Integer> ans = new ArrayList<>();
