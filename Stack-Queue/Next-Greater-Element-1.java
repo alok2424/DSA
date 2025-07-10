@@ -15,7 +15,6 @@ class Soltuion{
             nextGreaterMap.put(nums2[i],nextGreater);
             stack.push(nums2[i]);
         }
-
          for(int i=0;i<n1;i++){
          result[i] = nextGreaterMap.getOrDefault(nums1[i], -1);
          }
