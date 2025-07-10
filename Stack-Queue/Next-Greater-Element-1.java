@@ -12,11 +12,14 @@ class Soltuion{
                 stack.pop();
             }
             int nextGreater = stack.isEmpty() ? -1 : stack.peek();
+            //storing nge for every element in nums2 in a map
             nextGreaterMap.put(nums2[i],nextGreater);
             stack.push(nums2[i]);
         }
+        //since ques is asking to return the next greater element for nums1 array
          for(int i=0;i<n1;i++){
-         result[i] = nextGreaterMap.getOrDefault(nums1[i], -1);
+            //learn this map method 
+         result[i] = nextGreaterMap.getOrDefault(nums1[i], -1);//map.getorDefault(key,default);
          }
         return result;
     }
